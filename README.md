@@ -1,7 +1,7 @@
 # unlockervip source
 bunch of weird indian kids copy and pasted this and sold it. it took me like a minute to decompile it
 
-- [ ] 10 Stars for the tool (not source)
+- [ x ] 10 Stars for the tool (not source)
 
 - [ ] 20 Stars for the full source
 
