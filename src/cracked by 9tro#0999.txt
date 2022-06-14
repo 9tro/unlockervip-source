@@ -1,0 +1,13 @@
+hi :)
+this is an updated version. updated last on Monday, June 14th 2022
+the keyauth has been removed
+9tro#0999 on discord
+
+wanna support me?
+
+btc: bc1q7qm5suc7vnf6wrjvrp0cn0z7m4q5sjuz8ekw6r
+cashapp: $9troOnGo
+
+ty :) enjoy the source, sorry for taking so long to release. i've been busy
+
+you're going to have to clean all the code up and fix all the errors and import everything needed :c

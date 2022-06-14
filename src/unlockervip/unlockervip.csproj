@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{411D45D4-EF1C-4507-93A6-5064FE37078D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>unlockervip</RootNamespace>
+    <AssemblyName>unlockervip</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>unlockervip.ico</ApplicationIcon>
+    <StartupObject>KeyAuth.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Downloads\VulcanShopLoader (2)\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Downloads\VulcanShopLoader (2)\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReaLTaiizor">
+      <HintPath>..\..\..\..\Downloads\VulcanShopLoader (2)\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>..\..\..\..\Downloads\VulcanShopLoader (2)\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyAuth\api.cs" />
+    <Compile Include="KeyAuth\encryption.cs" />
+    <Compile Include="KeyAuth\json_wrapper.cs" />
+    <Compile Include="KeyAuth\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyAuth\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyAuth\Program.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Class10.cs" />
+    <Compile Include="ns0\Class12.cs" />
+    <Compile Include="ns0\Class13.cs" />
+    <Compile Include="ns0\Class15.cs" />
+    <Compile Include="ns0\Class16.cs" />
+    <Compile Include="ns0\Class17.cs" />
+    <Compile Include="ns0\Class18.cs" />
+    <Compile Include="ns0\Class19.cs" />
+    <Compile Include="ns0\Class25.cs" />
+    <Compile Include="ns0\Class26.cs" />
+    <Compile Include="ns0\Class28.cs" />
+    <Compile Include="ns0\Class29.cs" />
+    <Compile Include="ns0\Class30.cs" />
+    <Compile Include="ns0\Class31.cs" />
+    <Compile Include="ns0\Class32.cs" />
+    <Compile Include="ns0\Class58.cs" />
+    <Compile Include="ns0\Class59.cs" />
+    <Compile Include="ns0\Class6.cs" />
+    <Compile Include="ns0\Class7.cs" />
+    <Compile Include="ns0\Class8.cs" />
+    <Compile Include="ns0\Enum0.cs" />
+    <Compile Include="ns0\Enum1.cs" />
+    <Compile Include="ns0\Enum13.cs" />
+    <Compile Include="ns0\Enum14.cs" />
+    <Compile Include="ns0\Enum15.cs" />
+    <Compile Include="ns0\Enum16.cs" />
+    <Compile Include="ns0\Enum17.cs" />
+    <Compile Include="ns0\Enum18.cs" />
+    <Compile Include="ns0\Enum19.cs" />
+    <Compile Include="ns0\Enum2.cs" />
+    <Compile Include="ns0\Enum20.cs" />
+    <Compile Include="ns0\Enum21.cs" />
+    <Compile Include="ns0\Enum22.cs" />
+    <Compile Include="ns0\Enum23.cs" />
+    <Compile Include="ns0\Enum24.cs" />
+    <Compile Include="ns0\Enum25.cs" />
+    <Compile Include="ns0\Enum27.cs" />
+    <Compile Include="ns0\Enum28.cs" />
+    <Compile Include="ns0\Enum3.cs" />
+    <Compile Include="ns0\Enum4.cs" />
+    <Compile Include="ns0\Enum5.cs" />
+    <Compile Include="ns0\Enum6.cs" />
+    <Compile Include="ns0\Enum7.cs" />
+    <Compile Include="ns0\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\Interface0.cs" />
+    <Compile Include="ns0\Interface1.cs" />
+    <Compile Include="ns0\Interface2.cs" />
+    <Compile Include="ns0\Struct10.cs" />
+    <Compile Include="ns0\Struct11.cs" />
+    <Compile Include="ns0\Struct15.cs" />
+    <Compile Include="ns0\Struct16.cs" />
+    <Compile Include="ns0\Struct9.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="unlockervip_ProcessedByFody.cs" />
+    <Compile Include="ZAllLockUndo\Properties\Settings.cs" />
+    <Compile Include="ZAllLockUndo\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="-59jEc4BQQ==" />
+    <EmbeddedResource Include="-RSy1Qs6yw==" />
+    <EmbeddedResource Include="0xw2k015nr.76bsrkmu1y57w3" />
+    <EmbeddedResource Include="111ㅤㅤ" />
+    <EmbeddedResource Include="11ㅤ" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="b0494a1f-4bd3-HaC1GYJMmjI2aplxbWN9CA==" />
+    <EmbeddedResource Include="b0494a1f-4bd3-rXuzzA4DuzdpoFQY1YsYOQ==" />
+    <EmbeddedResource Include="b0494a1f-4bd3-XlUqNfKuHp1+pBShBQt+EA==" />
+    <EmbeddedResource Include="Costura\costura\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="Costura\guna\ui2\dll.compressed" />
+    <EmbeddedResource Include="Costura\metadata" />
+    <EmbeddedResource Include="Costura\newtonsoft\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\realtaiizor\dll.compressed" />
+    <EmbeddedResource Include="Costura\siticone\ui\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\diagnostics\diagnosticsource\dll.compressed" />
+    <EmbeddedResource Include="info.resources" />
+    <EmbeddedResource Include="jhuxqwfox.dcj79p9x5" />
+    <EmbeddedResource Include="KeyAuth\Login.resources" />
+    <EmbeddedResource Include="ns0\Form1.2.resources" />
+    <EmbeddedResource Include="ns0\Form1.resources" />
+    <EmbeddedResource Include="Properties\Resources.resources" />
+    <EmbeddedResource Include="ZAllLockUndo\g.resources" />
+    <EmbeddedResource Include="5ejn.1c12fka" />
+    <EmbeddedResource Include="0x5hk3e06ui.xjfpvwwm1" />
+    <EmbeddedResource Include="v5thlip0o0v3.3lqk328i0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ZAllLockUndo\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

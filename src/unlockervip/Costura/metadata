@@ -1,0 +1,7 @@
+costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF33BDD62C4F82D3EF078E76F0906|4608
+costura.costura.pdb.compressed|||Costura.pdb|6C6000A5EAF8579850AB82A89BD6268776EB51AD|2608
+costura.guna.ui2.dll.compressed|2.0.3.1|Guna.UI2, Version=2.0.3.1, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4|Guna.UI2.dll|2F49E9AD1442FD8B3E89144FA80F1CEA47017144|2336712
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|7D0AD03FBDA1C24F883116B940717E596073AE96|701992
+costura.realtaiizor.dll.compressed|3.7.8.4|ReaLTaiizor, Version=3.7.8.4, Culture=neutral, PublicKeyToken=null|ReaLTaiizor.dll|DC54EC826A79DCAD4509B88764AC7E859C585253|6167552
+costura.siticone.ui.dll.compressed|1.0.0.3|Siticone.UI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=da23b5286e22db85|Siticone.UI.dll|14995E7F1D12498606D9D209D78D55FE6FD87802|1344680
+costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760
