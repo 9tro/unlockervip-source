@@ -3,7 +3,7 @@ bunch of weird indian kids copy and pasted this and sold it. it took me like a m
 
 - [x] 10 Stars for the tool (not source)
 
-- [ ] 20 Stars for the full source
+- [x] 20 Stars for the full source
 
 https://www.youtube.com/watch?v=HDi5pQKuBNc
 
