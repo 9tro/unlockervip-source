@@ -1,9 +1,7 @@
 # unlockervip source
 bunch of weird indian kids copy and pasted this and sold it. it took me like a minute to decompile it
 
-![image](https://user-images.githubusercontent.com/77902240/173671607-6ca78b15-340e-4601-8d32-ebfd6232c486.png)
-
-why are all of you brain dead. it's not that hard. dont ask me no more questions smh, figure it out yourself
+i built the source. you can now get the executable from the Debug folder
 
 - [x] 10 Stars for the tool (not source)
 
