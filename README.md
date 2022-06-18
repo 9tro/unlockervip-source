@@ -1,3 +1,6 @@
+# if you think it's a logger then dont run it
+i honestly could care less of what you think this is. its on github cus ion want it smh. dont make an issue saying its a logger and that you can code in c++ but yet you googling warzone unlock tool 🤡 you'll jus look silly
+
 # unlockervip source
 bunch of weird indian kids copy and pasted this and sold it. it took me like a minute to decompile it
 
